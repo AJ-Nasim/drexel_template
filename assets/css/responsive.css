@@ -1,0 +1,278 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.container {
+    max-width: 1200px;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.main-menu nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+}
+.hero-slider-item {
+    height: 330px;
+}
+
+
+
+ 
+
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+
+header.header-area {
+    height: 130px;
+}
+.main-menu {
+    padding-bottom: 5px;
+}	
+.hero-slider-item {
+    height: 300px;
+
+} 
+.product-slider-active .owl-nav { 
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+.product-slider-active .owl-nav div {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.product-slider-active .owl-nav .owl-prev {
+    border-right: 1px solid #222222;
+}
+.product-tab .nav .nav-item a {
+    color: #222222;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-item .active {
+    border-bottom: 1px solid #222222;
+}
+.product-tab .nav .nav-item a { 
+    font-size: 12px; 
+    padding-right: 0px;
+}
+
+.single-brend-logo-item a img {
+    width: 70% !important; 
+}
+.footer-lest-menu ul li { 
+    padding-right: 20px;
+}
+.footer-last-text {
+    height: 70px;
+}
+.single-footer-box h4.footer-title {
+    font-size: 14px; 
+}
+
+
+
+
+
+
+}
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+.mean-container a.meanmenu-reveal { 
+    color: #222222; 
+	text-decoration: none; 
+	font-size: 16px; 
+	font-weight: 700; 
+	background: #fff !important;
+    position: absolute;
+    bottom: 10px; 
+    right: 20px !important
+}
+.mean-container a.meanmenu-reveal span { 
+    background: #222222; 
+}
+.mean-container .mean-bar, .mean-container .mean-nav {
+    background-color: #222222;
+}
+.mean-container .mean-nav ul li a { 
+    border-top: 1px solid #383838;
+}
+.mean-container .mean-nav ul li a.mean-expand { 
+    background: #0000;
+    border: none!important;
+    border-left: transparent;
+    border-bottom: transparent;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+    background: transparent;
+}
+
+header.header-area {
+    height: 170px; 
+    z-index: 99;
+    background: #fff;
+}
+.subscribe-title h4 {
+    font-size: 24px;  
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+ .hero-area {
+    margin-top: 200px;
+}
+
+.action-menu { 
+    padding-bottom: 15px;
+    text-align: center;
+    margin-right: -40px;
+}	
+.hero-slider-item {
+    height: 280px;
+}
+.slider-wrepper {
+    padding-left: 40px;
+}
+.product-slider-active .owl-nav { 
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.product-slider-active .owl-nav div {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.product-slider-active .owl-nav .owl-prev {
+    border-right: 1px solid #222222;
+}
+.product-tab .nav .nav-item a { 
+    padding: 1px;
+    margin-right: 10px;
+}
+.subscribe-form form input {
+    width: 180px;
+    padding: 12px 15px;
+}
+a.subscribe-btn {
+    padding: 0 4px;
+    margin: 0px;
+    font-size: 11px;
+    line-height: 49px;
+    height: 48px;
+}
+.single-brend-logo-item a img {
+    width: 50% !important; 
+}
+
+.brend-logo-area.section-padding {
+    padding: 30px 0px !important;
+}
+footer .row.border-top.section-padding {
+    padding: 30px 0 !important;
+}
+.footer-lest-menu {
+    text-align: center;
+}
+.footer-last-textsMenu {
+    text-align: center;
+    padding-top: 5px;
+}
+.single-footer-box {
+    padding-top: 30px;
+}
+.action-menu nav ul li ul {
+	width: 300px;
+    right: -65px;  
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.action-menu nav ul li ul li a img {
+    width: 70px; 
+    height: 70px;
+}
+.action-menu nav ul li ul li a .cart-wreepper {
+    width: 160px; 
+    padding-left: 7px; 
+}
+.search_area { 
+    top: 65px;
+   right: 10px;
+}
+.action-menu nav ul li { 
+    padding-right: 28px; 
+}
+ .product-tab .nav .nav-item a { 
+    font-size: 10px;
+   }
+ .footer-last-text {
+    height: 120px;
+}  
+.footer-lest-menu ul li { 
+    padding-right: 18px;
+}
+.subscribe-title p {
+    font-size: 15px; 
+}
+
+
+
+
+
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ header.header-area {
+    height: 110px;
+
+ }
+.subscribe-form form input {
+    width: 330px;
+    padding: 16px 30px;
+}
+ 
+.subscribe-title h4 {
+    font-size: 30px;  
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+.subscribe-title p {
+    font-size: 18px; 
+}
+a.subscribe-btn {
+    padding: 0px 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    height: 57px;
+    line-height: 59px;
+}
+.mean-container a.meanmenu-reveal {  
+    bottom: 43px; 
+}
+.mean-container .mean-bar {
+    margin: 25px; 
+}
+}

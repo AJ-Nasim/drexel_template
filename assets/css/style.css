@@ -1,0 +1,324 @@
+=================
+  font-link
+===============================*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Poppins:200,300,400,500,600,700,800,900&display=swap');
+/*=================
+  font-link
+===============================*/
+/* ===========================
+  Base CSS START
+=============*/
+
+/*
+  font-family: 'Oswald', sans-serif;
+  */
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif; 
+  margin: 0 0 15px;
+  font-weight: 300;
+  color: #000000;
+}
+body {
+  font-family: 'Poppins', sans-serif; 
+  color: #222222;
+  font-weight: 300;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+ul{
+  margin: 0;
+  padding: 0
+}
+li{
+  list-style: none;
+}
+/*=================
+bass css END
+================
+
+
+/*header area start*/
+header.header-area {
+    height: 170px;
+}
+
+.main-menu nav ul li {
+    display: inline-block;
+    padding-right: 50px;
+    position: relative;
+}
+
+.main-menu nav ul li a {
+    font-size: 14px;
+    color: #222222;
+    padding: 15px 0;
+    display: block;
+    transitioin:.3s;
+}
+
+
+.action-menu nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+    position: relative;
+}
+
+.action-menu nav ul li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #222222;
+    padding: 15px 0;
+    display: block;
+}
+.action-menu nav ul li i {
+    font-size: 14px;
+}
+
+.main-menu nav ul li a i {
+    font-size: 12px;
+    padding-left: 5px;
+    transition:.3s;
+}
+.main-menu nav ul li:hover> a{
+  color: #888
+}
+.action-menu {
+    text-align: right;
+}
+.action-menu nav ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+/*subMenu*/
+.main-menu nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #222222;
+    top: 50px;
+    border-radius: 2px;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    transform-origin: top;
+    transform: scaleY(0);
+}
+
+.main-menu nav ul li ul li {
+    width: 100%;
+    padding-left: 20px;
+    text-transform: uppercase;
+   border-bottom: 1px solid dimgrey;
+   transition:.3s;
+   position: relative;
+}
+.main-menu nav ul li ul li:hover {
+  padding-left: 50px;
+  color: #888
+}
+.main-menu nav ul li ul li a {
+    color: #f1f1f1;
+    width: 100%;
+    display: block;
+}
+.main-menu nav ul li:hover a i{
+  transform: rotate(-180deg) 
+}
+.main-menu nav ul li:hover> ul {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.main-menu nav ul li ul li ul {
+    left: 100%;
+    top: 0;
+}
+.main-menu nav ul li ul li ul li ul{
+  left: :100%;
+  top: 0
+}
+
+/*search area start*/
+a.search-btns {
+    position: relative;
+}
+.search_area {
+    position: absolute;
+    right: 40px;
+    top: 42px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    width: 255px;
+    height: 100px;
+    display: none;
+}
+.search_area.active{ 
+  display: block;  
+}
+.search_area  form input {
+    width: 65%;
+    margin: auto;
+    display: block;
+    transform: translateY(65%) translateX(1%);
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 10px;
+    outline: none;
+}
+
+/*cart css*/
+.action-menu nav ul li ul {
+    position: absolute;
+    width: 380px;
+    right: 0;
+    background: #222222;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transform:scaleY(0);
+    transform-origin:top;
+    transition:.3s;
+}
+.action-menu nav ul li:hover> ul{
+  visibility: visible;
+  opacity: 1;
+  transform:scaleY(1);
+}
+.action-menu nav ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.action-menu nav ul li ul li a img {
+    width: 80px;
+    float: left;
+    height: 100px;
+}
+
+.action-menu nav ul li ul li a .cart-wreepper {
+    width: 200px;
+    float: right;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+}
+
+.action-menu nav ul li ul li a .cart-wreepper p {
+    color: #888;
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.action-menu nav ul li ul li a .cart-wreepper h6 {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.action-menu nav ul li ul li a .cart-wreepper h6 span {
+    font-size: 12px;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.action-menu nav ul li ul li a .cart-wreepper:after {
+    bottom: 0;
+}
+
+.action-menu nav ul li ul li.box-cart:after {
+    position: absolute;
+    content: "\f014";
+    bottom: 0;
+    right: 0;
+    color: #888;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+p.total_title {
+    color: #888;
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+p.total {
+    width: 50%;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background: #000;
+    border: 1px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding: 15px;
+    outline: none !important;
+    cursor: pointer;
+}
+/*header area END*/
+
+/*==================================
+    hero area start
+=============================*/
+
+.hero-area {
+    height: 630px;
+    background: url(assets/img/hero-bac.png);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    background-color: red;
+}
